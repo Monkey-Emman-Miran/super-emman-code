@@ -19,6 +19,7 @@
 >> ***String Indexing:*** [1:] - This is used to identify every single letter in the word, starting from the second letter.
 >> 
 >> ***String Slicing:*** [0] - This is used to extract the first letter of the given word in the function.
+
 > ## CODE
 ```python
 def rotate_word(text):
@@ -50,9 +51,7 @@ function must:
 ><br>2. Remove all spaces from the first name;
 ><br>3. Remove all spaces from the last name; and
 ><br>4. Join the processed first and last names using one period (.).
-
 >> For this programming problem, we are tasked to combine two different texts together, with the conditions that the given texts are to be converted into lowercase, and they are joined together with one period. This could be done by using the function ***.lower()***, which converts the given text into lower case. The last condition that needs to be met is to convert the given text to have no spaces in between when merging it in the output. This problem can be solved by using the function ***.replace()***
-
 >> <br><br>
 >> ***.lower()*** - This is used to convert the given text from the input into lowercase.
 >> <br><br>
