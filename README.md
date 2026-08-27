@@ -78,8 +78,8 @@ make_username("Ana Maria", "De Leon")
 ```
 ```'anamaria.deleon'```
 >  ##  **C.** BOOKEND SWAP PROBLEM
-> Create a function named swap bookends() that accepts a list containing at least two elements. Unpack the list into three variables:
 
+> Create a function named swap bookends() that accepts a list containing at least two elements. Unpack the list into three variables:
 ><br><br> **first – the first element;**
 ><br><br> **middle – a list containing everything between the first and last elements; and**
 ><br><br> **last – the last element.**
