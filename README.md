@@ -42,3 +42,10 @@ rotate_word("Code")
 rotate_word("A")
 ```
 ```'A'```
+>  ##  **B.** WORD USERNAME BUILDER PROBLEM
+> > Create a function named make username() that accepts two strings: first name and last name. The
+function must:
+><br>1. Convert all letters to lowercase;
+><br>2. Remove all spaces from the first name;
+><br>3. Remove all spaces from the last name; and
+><br>4. Join the processed first and last names using one period (.).
