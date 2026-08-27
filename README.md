@@ -28,7 +28,7 @@ def rotate_word(text):
 ```python
 rotate_word("python")
 ```
-'ythonp'
+```'ythonp'```
 ```python
 rotate_word("logic")
 ```
