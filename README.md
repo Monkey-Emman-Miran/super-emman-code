@@ -44,9 +44,9 @@ rotate_word("A")
 ```
 ```'A'```
 >  ##  **B.** WORD USERNAME BUILDER PROBLEM
+
 >  Create a function named make username() that accepts two strings: first name and last name. The
 function must:
-
 ><br>1. Convert all letters to lowercase;
 ><br>2. Remove all spaces from the first name;
 ><br>3. Remove all spaces from the last name; and
@@ -101,3 +101,15 @@ def swap_bookends(items):
     return [last] + middle + [first]
 ```
 > ## Outputs
+```python
+swap_bookends([1, 2, 3, 4, 5, 6])
+```
+ ```[6, 2, 3, 4, 5, 1]```
+```python
+swap_bookends(["red", "green", "blue"])
+```
+```['blue', 'green', 'red']```
+```python
+swap_bookends([8, 3])
+```
+```[3, 8]```
