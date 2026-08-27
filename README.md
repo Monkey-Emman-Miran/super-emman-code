@@ -22,5 +22,3 @@
 > ## CODE
 def rotate_word(text):
     return text[1:] + text[0]
-> ## Outputs
-    rotate_word("Python")
