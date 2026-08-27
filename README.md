@@ -49,12 +49,28 @@ function must:
 ><br>2. Remove all spaces from the first name;
 ><br>3. Remove all spaces from the last name; and
 ><br>4. Join the processed first and last names using one period (.).
->> For this problem, we are asked to take the given input text and rearrange it in the order of ***Last -> Middle -> First*** because we only asked to swap the first and last input element, as the middle element remains in place. To solve this problem, we can use something called ***sequence unpacking***, which allows us to assign an order or sequence to the given elements.
->> <br><br>An easy way to visualize this is by using this example.
->> <br><br> 1, *2, 3 = [cat, dog, monkey, rat,]
->> <br><br> In this example, the elements inputted on the right-hand side of the ***=*** will be assigned a digit from the right-hand side.
->> <br><br> 1 = cat
->> <br><br> 2 = dog, monkey
->> <br><br> 3 = rat
->> <br><br> By assigning the input text a position, we can easily just swap the first and last elements in the return function. For sequence unpacking so that we would be able to assign multiple texts into one element, we will use an * as shown above to group them together.
+>> For this programming problem, we are tasked to combine two different texts together, with the conditions that the given texts are to be converted into lowercase, and they are joined together with one period. This could be done by using the function ***.lower()***, which converts the given text into lower case. The last condition that needs to be met is to convert the given text to have no spaces in between when merging it in the output. This problem can be solved by using the function ***.replace()***
+>> <br><br>
+>> ***.lower()*** - This is used to convert the given text from the input into lowercase.
+>> <br><br>
+>> ***.replace*** (" ", "") - The reasoning for why we use this function is so we replace every single blank space indicated by the ***" "*** with an empty string represented by ***""***.
 > ## CODE
+```python
+def make_username(first_name, last_name):
+    lower_first = first_name.lower() .replace(" ", "")
+    lower_last = last_name.lower() .replace(" ", "")
+    return lower_first + "." + lower_last
+```
+> ## Outputs
+```python
+make_username("Ada", "Lovelace")
+```
+```'ada.lovelace'```
+```python
+make_username("Alan", "Turing")
+```
+```'alan.turing'```
+```python
+make_username("Ana Maria", "De Leon")
+```
+```'anamaria.deleon'```
