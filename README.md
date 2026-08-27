@@ -27,13 +27,17 @@ def rotate_word(text):
 > ## Outputs
 ```python
 rotate_word("python")
+```'ythonp'```
 ```
 ```python
 rotate_word("logic")
+```'ogicl'```
 ```
 ```python
 rotate_word("Code")
+```'odeC'```
 ```
 ```python
 rotate_word("A")
+```'A'```
 ```
