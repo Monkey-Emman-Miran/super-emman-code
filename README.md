@@ -3,7 +3,7 @@
 # <center> __EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING__ </center> 
 #### Emmanuelle D.G. Miran| 2ECE-C
 ## **I.** Intended Learning Outcomes
-1. Use basic Python functions, operators, and string operations;
+> 1. Use basic Python functions, operators, and string operations;
 2. Manipulate strings using indexing, slicing, and built-in string methods;
 3. Apply sequence unpacking to manipulate the elements of a list; and
 4. Construct simple Python functions that return a specified result.
