@@ -43,9 +43,18 @@ rotate_word("A")
 ```
 ```'A'```
 >  ##  **B.** WORD USERNAME BUILDER PROBLEM
-> > Create a function named make username() that accepts two strings: first name and last name. The
+>  Create a function named make username() that accepts two strings: first name and last name. The
 function must:
 ><br>1. Convert all letters to lowercase;
 ><br>2. Remove all spaces from the first name;
 ><br>3. Remove all spaces from the last name; and
 ><br>4. Join the processed first and last names using one period (.).
+>> For this problem, we are asked to take the given input text and rearrange it in the order of ***Last -> Middle -> First*** because we only asked to swap the first and last input element, as the middle element remains in place. To solve this problem, we can use something called ***sequence unpacking***, which allows us to assign an order or sequence to the given elements.
+>> <br><br>An easy way to visualize this is by using this example.
+>> <br><br> 1, *2, 3 = [cat, dog, monkey, rat,]
+>> <br><br> In this example, the elements inputted on the right-hand side of the ***=*** will be assigned a digit from the right-hand side.
+>> <br><br> 1 = cat
+>> <br><br> 2 = dog, monkey
+>> <br><br> 3 = rat
+>> <br><br> By assigning the input text a position, we can easily just swap the first and last elements in the return function. For sequence unpacking so that we would be able to assign multiple texts into one element, we will use an * as shown above to group them together.
+> ## CODE
