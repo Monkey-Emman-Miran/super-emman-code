@@ -84,7 +84,6 @@ make_username("Ana Maria", "De Leon")
 ><br><br> **middle – a list containing everything between the first and last elements; and**
 ><br><br> **last – the last element.**
 ><br><br> Using these variables, return a new list in which the first and last elements have exchanged positions. The elements in the middle must remain in their original order. Do not modify the input list
-
 >> For this problem, we are asked to take the given input text and rearrange it in the order of ***Last -> Middle -> First*** because we only asked to swap the first and last input element, as the middle element remains in place. To solve this problem, we can use something called ***sequence unpacking***, which allows us to assign an order or sequence to the given elements.
 >> <br><br>An easy way to visualize this is by using this example.
 >> <br><br> 1, *2, 3 = [cat, dog, monkey, rat,]
@@ -113,3 +112,12 @@ swap_bookends(["red", "green", "blue"])
 swap_bookends([8, 3])
 ```
 ```[3, 8]```
+
+To view and test the code:
+- Download ```'ECE2112_PA.ipynb'``` that is located in this repository
+- Open via any Interactive Python Notebook (e.g., Google Colab or Jupyter Notebook)
+- Upload and run the file
+
+**README File Version History:**
+
+```August 27, 2026``` - Initial README.md and .ipynb file was uploaded.
