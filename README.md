@@ -7,7 +7,7 @@
 2. Manipulate strings using indexing, slicing, and built-in string methods;
 3. Apply sequence unpacking to manipulate the elements of a list; and
 4. Construct simple Python functions that return a specified result.
-<br>
+
 ## **II.** Programming Problems
 >  ##  **A.** WORD ROTATION PROBLEM
 
