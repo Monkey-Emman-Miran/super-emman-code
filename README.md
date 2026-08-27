@@ -13,11 +13,11 @@
 
 > Create a function named rotate word() that accepts a non-empty string. Move the first character of the string to the end while keeping all remaining characters in their original order. Preserve the capitalization of every character.
 >> For this programming problem, we would need to be able to identify the whole text given and identify which position they are in. With that in mind, we shall identify each and every letter by using ***string indexing***. We also use something called ***string slicing***, which is used to extract a specific part of a word depending on the value you use in the [ ]. Python uses a 0-based indexing system, so the letters will be identified by [0] as the first letter in the given text.
->> <br><br>
+>> 
 >> In this specific problem, the functions that we used are the following.
->> <br><br>
+>> 
 >> ***String Indexing:*** [1:] - This is used to identify every single letter in the word, starting from the second letter.
->> <br><br>
+>> 
 >> ***String Slicing:*** [0] - This is used to extract the first letter of the given word in the function.
 > ## CODE
 def rotate_word(text):
