@@ -20,5 +20,6 @@
 >> 
 >> ***String Slicing:*** [0] - This is used to extract the first letter of the given word in the function.
 > ## CODE
+```python
 def rotate_word(text):
     return text[1:] + text[0]
