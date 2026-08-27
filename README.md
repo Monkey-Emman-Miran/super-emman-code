@@ -23,3 +23,17 @@
 ```python
 def rotate_word(text):
     return text[1:] + text[0]
+```
+> ## Outputs
+```python
+rotate_word("python")
+```
+```python
+rotate_word("logic")
+```
+```python
+rotate_word("Code")
+```
+```python
+rotate_word("A")
+```
